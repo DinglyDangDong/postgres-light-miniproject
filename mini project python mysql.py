@@ -9,10 +9,10 @@ import platform
 import os
 
 connection = psycopg2.connect(user="postgres",
-                                  password="SunnyYean7",
+                                  password="password",
                                   host="localhost",
                                   port="5432",
-                                  database="codeyoung")
+                                  database="databse")
 cursor = connection.cursor()
 #custname varchar(20),addr varchar (30),jrdate varchar(10),source varchar(10),destination varchar(10));
 def registercust():
